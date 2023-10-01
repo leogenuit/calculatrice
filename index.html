@@ -3,12 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles/index.css" />
 
-    <script src="index.js"></script>
+    <script type="module" src="js/index.js"></script>
+
     <title>Document</title>
   </head>
   <body>
-    <h1>super calculette</h1>
+    <div class="container">
+      <div class="text">
+        <p class="lazio">LAZIO</p>
+        <p class="fx">fx-128+</p>
+      </div>
+      <div id="screen">0</div>
+      <div class="calculator">
+        <div class="possibilities around-top-left action on-off">on</div>
+        <div class="possibilities action percentage">%</div>
+        <div class="possibilities action square root">√</div>
+        <div class="possibilities around-top-right action divide">÷</div>
+
+        <div class="possibilities action multiply">x</div>
+
+        <div class="possibilities action percentage">?</div>
+        <div class="possibilities action percentage">?</div>
+        <div class="possibilities action percentage">?</div>
+        <div class="possibilities around-bottom-left action percentage">?</div>
+        <div class="possibilities action percentage">?</div>
+        <div class="possibilities action percentage">?</div>
+        <div class="possibilities around-bottom-right action percentage">?</div>
+        <div class="possibilities around-top-left seven">7</div>
+        <div id="huit" class="possibilities height">8</div>
+        <div class="possibilities nine">9</div>
+        <div class="possibilities around-top-right action reset ac">AC</div>
+        <div class="possibilities four">4</div>
+        <div class="possibilities five">5</div>
+        <div class="possibilities six">6</div>
+        <div class="possibilities action minus">-</div>
+
+        <div class="possibilities one">1</div>
+        <div class="possibilities two">2</div>
+        <div class="possibilities three">3</div>
+
+        <div
+          class="possibilities action around-bottom-right zero"
+          style="grid-row: span 2"
+        >
+          +
+        </div>
+        <div class="possibilities around-bottom-left plus">0</div>
+        <div class="possibilities action point">.</div>
+        <div class="possibilities action equal">=</div>
+      </div>
+    </div>
   </body>
 </html>
