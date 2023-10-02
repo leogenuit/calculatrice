@@ -12,4 +12,7 @@
   height: 40px;
   margin: 0 auto;
   margin-bottom: 20px;
+  @media (orientation: landscape) {
+    margin-bottom: 10px;
+  }
 }

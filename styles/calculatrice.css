@@ -5,6 +5,12 @@
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(35px, auto);
+  @media (orientation: landscape) {
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    grid-gap: 5px;
+    grid-auto-rows: minmax(27px, auto);
+  }
 }
 /* @media screen and (min-width: 800px) {
   .calculator {
@@ -20,6 +26,9 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  @media (orientation: landscape) {
+    margin-bottom: 5px;
+  }
 }
 .possibilities {
   display: flex;
