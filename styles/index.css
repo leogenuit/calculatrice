@@ -16,5 +16,6 @@ p {
   margin: 0;
 }
 body {
-  background: red;
+  background: whitesmoke;
+  height: 100vh;
 }
