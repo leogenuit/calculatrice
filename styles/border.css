@@ -1,0 +1,12 @@
+.around-top-left {
+  border-top-left-radius: 20px;
+}
+.around-top-right {
+  border-top-right-radius: 20px;
+}
+.around-bottom-left {
+  border-bottom-left-radius: 20px;
+}
+.around-bottom-right {
+  border-bottom-right-radius: 20px;
+}

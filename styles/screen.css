@@ -1,0 +1,15 @@
+#screen {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-top: 5px solid #4d8673;
+  border-right: 5px solid #619581;
+  border-left: 5px solid #619581;
+  border-bottom: 5px solid #6da78b;
+  background: #d0e5db;
+  text-align: end;
+  width: 90%;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}

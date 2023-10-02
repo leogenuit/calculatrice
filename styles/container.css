@@ -1,0 +1,35 @@
+.container {
+  border-top: 2px solid #093335;
+  border-left: 1px solid #376565;
+  border-right: 1px solid #376565;
+  border-bottom: 5px solid #093335;
+  border-radius: 40px;
+  margin: 0 auto;
+  margin-top: 5%;
+  background: linear-gradient(#8fc3b1, #73a896);
+  width: 25%;
+  padding: 25px 10px;
+
+  @media screen and (min-width: 300px) {
+    width: 65%;
+    margin-top: 25%;
+  }
+  @media screen and (min-width: 400px) {
+    width: 50%;
+  }
+  @media screen and (min-width: 500px) {
+    width: 40%;
+  }
+  @media screen and (min-width: 600px) {
+    width: 36%;
+  }
+  @media screen and (min-width: 700px) {
+    width: 33%;
+  }
+  @media screen and (min-width: 800px) {
+    width: 30%;
+  }
+  @media screen and (min-width: 900px) {
+    width: 28%;
+  }
+}
