@@ -3,8 +3,6 @@ import { addShadowClass, removeShadowClass } from "./animation.js";
 let currentCount = document.querySelector("#currentInput");
 let screen = document.querySelector("#screen");
 let possibilities = document.querySelectorAll(".possibilities");
-let ac = document.querySelector("#clear");
-let equal = document.querySelector("#equal");
 let realTimeScreenValue = [];
 
 possibilities.forEach((possibilitie) => {
@@ -13,8 +11,10 @@ possibilities.forEach((possibilitie) => {
       screen.innerHTML = 0;
       realTimeScreenValue = [];
     }
-    if (possibilitie.classList.contains("num")) {
-      console.log(possibilitie, possibilitie.innerHTML);
+    if (
+      possibilitie.classList.contains("num") ||
+      possibilitie.classList.contains("func")
+    ) {
       realTimeScreenValue.push(possibilitie.innerHTML);
       currentCount = realTimeScreenValue.join("");
       screen.innerHTML = currentCount;
