@@ -1,22 +1,19 @@
 .calculator {
-  margin: 0 auto;
-  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.calculator .actions,
+.calculator .main-functions {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
   grid-auto-rows: minmax(35px, auto);
-  @media (orientation: landscape) {
-    grid-template-columns: repeat(4, 1fr);
-    width: 90%;
-    grid-gap: 5px;
-    grid-auto-rows: minmax(27px, auto);
-  }
+  grid-gap: 10px;
 }
-/* @media screen and (min-width: 800px) {
-  .calculator {
-    width: 100%;
-  }
-} */
 
 .lazio {
   margin-left: 10px;
@@ -25,10 +22,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
-  @media (orientation: landscape) {
-    margin-bottom: 5px;
-  }
+  margin: 10px;
 }
 .possibilities {
   display: flex;
@@ -39,6 +33,12 @@
   background: #2b4c50;
   color: white;
   font-size: 20px;
+  aspect-ratio: 1/1;
+}
+
+.plus-button {
+  aspect-ratio: initial;
+  grid-row: span 2;
 }
 
 .click {

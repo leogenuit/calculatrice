@@ -9,10 +9,10 @@
   background: #d0e5db;
   text-align: end;
   width: 90%;
-  height: 40px;
+  height: 100%;
   margin: 0 auto;
   margin-bottom: 20px;
-  @media (orientation: landscape) {
-    margin-bottom: 10px;
-  }
+  font-size: 3rem;
+  padding: 0 20px;
+  font-weight: 700;
 }

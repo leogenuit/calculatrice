@@ -2,6 +2,8 @@
 @import url("./calculatrice.css");
 @import url("./screen.css");
 @import url("./border.css");
+@import url("./responsive.css");
+
 * {
   box-sizing: border-box;
 }
